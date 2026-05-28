@@ -1,0 +1,1598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KALAKRIT_INTERIORS</title>
+
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="icon" href="/static/assets/images/favicon.ico">
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/style.css') }}">
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+
+  <div class="custom-nav">
+
+    <!-- LOGO -->
+    <a class="logo" href="#">
+      <img src="/static/assets/images/logo.jpeg" alt="Logo">
+
+      <div class="logo-text">
+        <h3>KALAKRIT INTERIORS</h3>
+        <p>Designing Spaces. Defining You.</p>
+      </div>
+    </a>
+
+    <!-- HAMBURGER -->
+    <div class="menu-toggle" id="menuToggle">
+      ☰
+    </div>
+
+    <!-- NAVIGATION -->
+    <div class="nav-wrapper" id="navWrapper">
+
+      <nav class="nav-links">
+        <a href="#home">HOME</a>
+        <a href="#designs">COLLECTIONS</a>
+        <a href="#customizer">CUSTOMIZER</a>
+        <a href="#materials">MATERIALS</a>
+        <a href="#about">ABOUT</a>
+        <a href="#details">DETAILS</a>
+      </nav>
+
+      <a href="#contact" class="btn-nav">
+        ENQUIRE NOW
+      </a>
+
+    </div>
+
+  </div>
+
+</header>
+
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+
+  <!-- SLIDES -->
+ 
+  <div class="slide active" style="background-image:url('/static/assets/images/layout3.png')"></div>
+  <div class="slide" style="background-image:url('/static/assets/images/img3.jpeg')"></div>
+  <div class="slide" style="background-image:url('/static/assets/images/g3.png')"></div>
+      <div class="slide" style="background-image:url('/static/assets/images/g4.png')"></div>
+  <div class="slide" style="background-image:url('/static/assets/images/g5.png')"></div>
+ 
+
+  <!-- CONTENT -->
+  <div class="hero-content">
+
+    <div class="tag">• PREMIUM MODULAR KITCHENS •</div>
+
+    <h1>
+      Transform Your <br>
+      <span>Dream Kitchen</span><br>
+      Into Reality
+    </h1>
+
+    <p>
+      Bespoke modular kitchens crafted with precision,
+      blending modern luxury with timeless elegance.
+    </p>
+
+   <div class="hero-buttons">
+      <a href="#designs" class="btn btn-gold">Explore Designs</a>
+      <a href="#contact" class="btn btn-outline">Book Consultation</a>
+    </div>
+  </div>
+  </section>
+
+<!-- ===== COLLECTIONS ===== -->
+<section id="designs" class="collections">
+
+  <div class="container">
+
+    <!-- HEADER -->
+    <div class="section-header">
+
+      <span class="section-tag">
+        CURATED SPACES
+      </span>
+
+      <h2>
+        Kitchens crafted for <br>
+        <span>the way you live.</span>
+      </h2>
+
+      <p class="section-sub">
+        Every kitchen tells a different story —
+        from intimate family mornings to luxurious entertaining evenings.
+      </p>
+
+    </div>
+
+    <!-- GRID -->
+    <div class="collections-grid">
+
+      <!-- CARD 1 -->
+      <div class="collection-card large">
+
+        <img src="/static/assets/images/island.webp" alt="">
+
+        <div class="overlay">
+
+          <div class="card-content">
+
+            <span class="card-number">01</span>
+
+            <h3>The Entertainer</h3>
+
+            <p>
+              Open island layouts designed for hosting,
+              conversations and elegant evenings.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="collection-card">
+
+        <img src="/static/assets/images/img2.jpeg" alt="">
+
+        <div class="overlay">
+
+          <div class="card-content">
+
+            <span class="card-number">02</span>
+
+            <h3>The Minimalist</h3>
+
+            <p>
+              Clean geometry, matte finishes
+              and timeless simplicity.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="collection-card">
+
+        <img src="/static/assets/images/m1.jpg" alt="">
+
+        <div class="overlay">
+
+          <div class="card-content">
+
+            <span class="card-number">03</span>
+
+            <h3>The Urban Chef</h3>
+
+            <p>
+              Smart layouts optimized for
+              compact modern living.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="collection-card wide">
+
+        <img src="/static/assets/images/modernimg.jpg" alt="">
+
+        <div class="overlay">
+
+          <div class="card-content">
+
+            <span class="card-number">04</span>
+
+            <h3>The Family Hub</h3>
+
+            <p>
+              Spacious open concepts built around
+              warmth, functionality and togetherness.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="collection-card">
+
+        <img src="/static/assets/images/luxury.avif" alt="">
+
+        <div class="overlay">
+
+          <div class="card-content">
+
+            <span class="card-number">05</span>
+
+            <h3>The Statement Space</h3>
+
+            <p>
+              Bold marble textures and premium finishes
+              crafted to impress.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="collection-card">
+
+        <img src="/static/assets/images/minimal.jpg" alt="">
+
+        <div class="overlay">
+
+          <div class="card-content">
+
+            <span class="card-number">06</span>
+
+            <h3>The Calm Retreat</h3>
+
+            <p>
+              Soft neutral palettes that create
+              peaceful everyday luxury.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- ================= POPUP FORM ================= -->
+<div class="lux-popup-overlay" id="popupOverlay">
+
+  <div class="lux-popup-container" id="popupBox">
+
+    <!-- CLOSE BUTTON -->
+    
+    <button class="popup-close" id="popupClose">&times;</button>
+
+    <!-- LEFT SIDE -->
+    <div class="popup-left">
+
+      <!-- LOGO -->
+      <div class="popup-logo">
+        <img src="/static/assets/images/favicon/android-chrome-192x192.png" alt="Kalakriti Interiors Logo">
+      </div>
+
+      <span class="popup-tag">
+        Luxury Interior Experience
+      </span>
+
+      <h2>
+        Transform Your Space Into
+        <span>Modern Luxury</span>
+      </h2>
+
+      <p>
+        Get premium interior solutions crafted specially
+        for your dream home with elegant aesthetics,
+        intelligent storage and timeless design.
+      </p>
+
+      <!-- FEATURES -->
+      <div class="popup-features">
+
+        <div class="feature">
+          <i class="fa-solid fa-check"></i>
+          <span>Free Consultation</span>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-check"></i>
+          <span>3D Design Preview</span>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-check"></i>
+          <span>Premium Materials</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="popup-right">
+
+      <h3>Book Your Free Consultation</h3>
+
+      <form id="popupForm">
+
+        <!-- NAME -->
+        <div class="input-group">
+          <input 
+            type="text"
+            id="popupName"
+            placeholder="Your Full Name"
+            required
+          >
+          <i class="fa-solid fa-user"></i>
+        </div>
+
+        <!-- PHONE -->
+        <div class="input-group">
+          <input 
+            type="tel"
+            id="popupPhone"
+            placeholder="Phone Number"
+            required
+          >
+          <i class="fa-solid fa-phone"></i>
+        </div>
+
+        <!-- EMAIL -->
+        <div class="input-group">
+          <input 
+            type="email"
+            id="popupEmail"
+            placeholder="Email Address"
+            required
+          >
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+
+<!-- CITY -->
+<div class="input-group">
+<input 
+    type="text"
+    name="city"
+    id="popupCity"
+    placeholder="Enter Your City"
+>
+
+  <i class="fa-solid fa-location-dot"></i>
+
+</div>
+
+        <!-- KITCHEN TIMELINE -->
+        <div class="input-group">
+          
+          <select id="duration" required>
+
+            <option value="">
+              When do you want your kitchen?
+            </option>
+
+            <option>Immediately</option>
+            <option>Within 1 Month</option>
+            <option>Within 3 Months</option>
+            <option>Within 6 Months</option>
+
+          </select>
+
+          <i class="fa-solid fa-calendar-days"></i>
+
+        </div>
+
+        <!-- MESSAGE -->
+        <div class="input-group">
+
+          <textarea
+            id="kitchenType"
+            placeholder="Tell us about your dream kitchen"
+          ></textarea>
+
+          <i class="fa-solid fa-pen"></i>
+
+        </div>
+
+        <button type="submit" class="popup-btn">
+          Get Free Consultation
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+  <!-- ================= CUSTOMIZER SECTION ================= -->
+
+<section class="smart-customizer" id="customizer">
+
+  <div class="container">
+
+    <!-- HEADER -->
+
+    <div class="customizer-header">
+
+      <span class="customizer-tag">
+        PERSONALIZED DESIGN EXPERIENCE
+      </span>
+
+      <h2>
+        Design Your <span>Dream Kitchen</span>
+      </h2>
+
+      <p>
+        Explore layouts, finishes, materials and smart
+        storage options crafted for modern Indian homes.
+      </p>
+
+    </div>
+
+    <!-- MAIN GRID -->
+
+    <div class="customizer-grid">
+
+      <!-- LEFT -->
+
+      <div class="customizer-left">
+
+        <!-- LAYOUT -->
+
+        <div class="customizer-block">
+
+          <h3>Choose Layout</h3>
+
+          <div class="layout-grid">
+
+            <div class="layout-card active"
+              data-title="Modern L-Shape Kitchen"
+              data-image="/static/assets/images/layout1.jpg">
+
+              <img src="/static/assets/images/layout1.jpg">
+
+              <div class="layout-info">
+                <h4>L Shape</h4>
+                <p>Compact & Functional</p>
+              </div>
+
+            </div>
+
+            <div class="layout-card"
+              data-title="Elegant U-Shape Kitchen"
+              data-image="/static/assets/images/layout2.jpg">
+
+              <img src="/static/assets/images/layout2.jpg">
+
+              <div class="layout-info">
+                <h4>U Shape</h4>
+                <p>Maximum Storage</p>
+              </div>
+
+            </div>
+
+            <div class="layout-card"
+              data-title="Luxury Island Kitchen"
+              data-image="/static/assets/images/layout3.png">
+
+              <img src="/static/assets/images/layout3.png">
+
+              <div class="layout-info">
+                <h4>Island</h4>
+                <p>Modern Open Living</p>
+              </div>
+
+            </div>
+
+            <div class="layout-card"
+              data-title="Parallel Smart Kitchen"
+              data-image="/static/assets/images/layout4.png">
+
+              <img src="/static/assets/images/layout4.png">
+
+              <div class="layout-info">
+                <h4>Parallel</h4>
+                <p>Efficient Workflow</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- MATERIALS -->
+
+        <div class="customizer-block">
+
+          <h3>Material Finish</h3>
+
+          <div class="material-grid">
+
+            <div class="material-card">
+              <span class="material-color acrylic"></span>
+              <div>
+                <h4>Acrylic Finish</h4>
+                <p>Glossy • Premium Look</p>
+              </div>
+            </div>
+
+            <div class="material-card">
+              <span class="material-color laminate"></span>
+              <div>
+                <h4>Laminate</h4>
+                <p>Affordable • Durable</p>
+              </div>
+            </div>
+
+            <div class="material-card">
+              <span class="material-color membrane"></span>
+              <div>
+                <h4>Membrane</h4>
+                <p>Elegant Curves</p>
+              </div>
+            </div>
+
+            <div class="material-card">
+              <span class="material-color pu"></span>
+              <div>
+                <h4>PU Finish</h4>
+                <p>Luxury Matte Finish</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- COLORS -->
+
+        <div class="customizer-block">
+
+          <h3>Color Palette</h3>
+
+          <div class="color-palette">
+
+            <span class="color active"
+              style="background:#E8DED1"></span>
+
+            <span class="color"
+              style="background:#2D2D2D"></span>
+
+            <span class="color"
+              style="background:#AFC4B1"></span>
+
+            <span class="color"
+              style="background:#6B4F3A"></span>
+
+            <span class="color"
+              style="background:#D4AF37"></span>
+
+            <span class="color"
+              style="background:#F5F1EA"></span>
+
+          </div>
+
+        </div>
+
+        <!-- BUDGET -->
+
+        <div class="customizer-block">
+
+          <h3>Budget Preference</h3>
+
+          <div class="budget-grid">
+
+            <div class="budget-card">
+              <h4>Essential</h4>
+              <p>Affordable practical kitchens</p>
+            </div>
+
+            <div class="budget-card active">
+              <h4>Comfort</h4>
+              <p>Balanced modern living</p>
+            </div>
+
+            <div class="budget-card">
+              <h4>Premium</h4>
+              <p>Luxury modern finishes</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- STORAGE -->
+
+        <div class="customizer-block">
+
+          <h3>Smart Storage Features</h3>
+
+          <div class="feature-grid">
+
+            <div class="feature-option">
+              Pantry Unit
+            </div>
+
+            <div class="feature-option">
+              Corner Carousel
+            </div>
+
+            <div class="feature-option">
+              Soft Close Drawers
+            </div>
+
+            <div class="feature-option">
+              Bottle Pullout
+            </div>
+
+            <div class="feature-option">
+              Tall Unit
+            </div>
+
+            <div class="feature-option">
+              Under Sink Storage
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+
+      <div class="customizer-preview">
+
+        <div class="preview-card">
+
+          <img id="previewImage"
+            src="/static/assets/images/g1.png">
+
+          <div class="preview-overlay">
+
+            <span class="preview-label">
+              KALAKRIT INTERIORS
+            </span>
+
+            <h2 id="previewTitle">
+              Modern L-Shape Kitchen
+            </h2>
+
+            <p>
+              Smart storage planning with elegant
+              finishes crafted for modern living.
+            </p>
+
+            <button class="preview-btn"
+              id="openPreview">
+
+              Explore Design
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= MODAL ================= -->
+
+<div class="preview-modal" id="previewModal">
+
+  <div class="modal-overlay"></div>
+
+  <div class="modal-box">
+
+    <button class="close-modal"
+      id="closeModal">
+
+      ✕
+
+    </button>
+
+    <img id="modalImage"
+      src="/static/assets/images/g1.png">
+
+  </div>
+
+</div>
+</section>
+
+
+<div class="whatsapp-fab" onclick="openWhatsApp()">
+  <svg viewBox="0 0 32 32" width="28" height="28">
+    <path fill="white"
+      d="M19.11 17.36c-.27-.14-1.59-.78-1.84-.87-.25-.09-.43-.14-.61.14-.18.27-.7.87-.86 1.05-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.53-.44-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.12 2.81c.14.18 1.94 2.96 4.7 4.15.66.29 1.18.46 1.58.59.66.21 1.27.18 1.75.11.53-.08 1.59-.65 1.82-1.27.23-.61.23-1.14.16-1.27-.07-.14-.25-.21-.52-.34zM16.02 2.67c-7.36 0-13.35 5.99-13.35 13.35 0 2.35.61 4.64 1.78 6.67L2 30l7.49-2.35c1.96 1.07 4.17 1.63 6.53 1.63h.01c7.36 0 13.35-5.99 13.35-13.35 0-3.56-1.39-6.91-3.91-9.43-2.52-2.52-5.87-3.91-9.43-3.91z"/>
+  </svg>
+</div>
+
+
+<section id="materials" class="materials-showcase">
+
+  <div class="container">
+
+    <!-- HEADER -->
+    <div class="materials-header fade-up">
+
+      <span class="materials-tag">MATERIAL EXPERIENCE</span>
+
+      <h2>
+        Premium Finishes,
+        <span>Designed For Modern Homes</span>
+      </h2>
+
+      <p>
+        Explore elegant kitchen finishes crafted to balance durability, affordability and timeless aesthetics.
+      </p>
+
+    </div>
+
+    <!-- GRID -->
+    <div class="materials-grid">
+
+      <!-- CARD -->
+      <div class="material-card featured fade-up">
+
+        <div class="material-image parallax">
+          <img 
+            data-src="/static/assets/images/acrylic.png"
+            src="/static/assets/images/acrylic.png"
+            class="lazy-img"
+            alt="">
+        </div>
+
+        <div class="material-content">
+          <div class="material-top">
+            <span class="material-badge">MOST POPULAR</span>
+            <span class="material-price">Premium Finish</span>
+          </div>
+
+          <h3>Acrylic Finish</h3>
+
+          <p>High-gloss reflective finish with a luxurious modern appearance.</p>
+
+          <div class="material-features">
+            <span>High Gloss</span>
+            <span>Scratch Resistant</span>
+            <span>Easy Maintenance</span>
+          </div>
+
+          <button class="view-btn" data-img="/static/assets/images/acrylic.png">
+            View Material
+          </button>
+
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="material-card fade-up">
+        <div class="material-image parallax">
+          <img data-src="/static/assets/images/laminate.png"
+               src="/static/assets/images/laminate.png"
+               class="lazy-img"
+               alt="">
+        </div>
+
+        <div class="material-content">
+          <h3>Laminate Finish</h3>
+          <p>Budget-friendly and versatile finish.</p>
+
+          <div class="material-features">
+            <span>Affordable</span>
+            <span>Durable</span>
+            <span>Textures</span>
+          </div>
+
+          <button class="view-btn" data-img="/static/assets/images/laminate.png">
+            View Material
+          </button>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="material-card fade-up">
+        <div class="material-image parallax">
+          <img data-src="/static/assets/images/membrane.png"
+               src="/static/assets/images/membrane.png"
+               class="lazy-img"
+               alt="">
+        </div>
+
+        <div class="material-content">
+          <h3>Membrane Finish</h3>
+          <p>Smooth seamless finish with elegant curves.</p>
+
+          <div class="material-features">
+            <span>Elegant</span>
+            <span>Soft Finish</span>
+            <span>Modern</span>
+          </div>
+
+          <button class="view-btn" data-img="/static/assets/images/membrane.png">
+            View Material
+          </button>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="material-card fade-up">
+        <div class="material-image parallax">
+          <img data-src="/static/assets/images/pu.png"
+               src="/static/assets/images/pu.png"
+               class="lazy-img"
+               alt="">
+        </div>
+
+        <div class="material-content">
+          <h3>PU Finish</h3>
+          <p>Luxury matte and satin premium finish.</p>
+
+          <div class="material-features">
+            <span>Luxury</span>
+            <span>Matte</span>
+            <span>Premium</span>
+          </div>
+
+          <button class="view-btn" data-img="/static/assets/images/pu.png">
+            View Material
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- ===== drag old vs new section ===== -->
+    <section class="before-after-section">
+  <div class="container">
+    <h1>From bare space<br>to dream kitchen.</h1>
+
+    <div class="ba-wrapper">
+      
+      <!-- AFTER IMAGE -->
+      <img src="/static/assets/images/img1.jpeg" alt="After" class="img-after">
+
+      <!-- BEFORE IMAGE -->
+      <div class="img-before-wrapper">
+        <img src="/static/assets/images/oldkitchennew.jpg" alt="Before" class="img-before">
+      </div>
+
+      <!-- SLIDER -->
+      <div class="slider">
+        <div class="slider-line"></div>
+        <div class="slider-button">&#10094;&#10095;</div>
+      </div>
+
+      <!-- LABELS -->
+      <span class="label before">BEFORE</span>
+      <span class="label after">AFTER</span>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- ================= VIDEO SECTION ================= -->
+
+<section id="about" class="video-v2">
+
+  <!-- HEADER -->
+
+  <div class="video-header">
+    <h2>
+      Inside <span>Kalakrit</span>
+    </h2>
+
+    <p class="sub-text">
+      Discover real kitchen transformations,
+      premium craftsmanship and modern interiors
+      designed for everyday living.
+    </p>
+
+    <p class="hardware-partner">
+      Hardware Partner • DVM
+    </p>
+
+  </div>
+
+  <!-- VIDEO GRID -->
+
+  <div class="video-grid">
+
+    <!-- LARGE VIDEO -->
+
+    <div class="video-card large">
+
+      <video
+        src="/static/assets/videos/video1.mp4"
+        autoplay
+        muted
+        loop
+        playsinline>
+      </video>
+
+      <div class="video-overlay">
+        <h3>Luxury Accessories & Storage</h3>
+      </div>
+
+    </div>
+
+    <!-- VIDEO -->
+
+    <div class="video-card">
+
+      <video
+        src="/static/assets/videos/video2.mp4"
+        autoplay
+        muted
+        loop
+        playsinline>
+      </video>
+
+      <div class="video-overlay">
+        <h3>Modern Storage Solutions</h3>
+      </div>
+
+    </div>
+
+    <!-- VIDEO -->
+
+    <div class="video-card">
+
+      <video
+        src="/static/assets/videos/video3.mp4"
+        autoplay
+        muted
+        loop
+        playsinline>
+      </video>
+
+      <div class="video-overlay">
+        <h3>Premium Finishes</h3>
+      </div>
+
+    </div>
+
+    <!-- VIDEO -->
+
+    <div class="video-card">
+
+      <video
+        src="/static/assets/videos/dvm2.mp4"
+        autoplay
+        muted
+        loop
+        playsinline>
+      </video>
+
+      <div class="video-overlay">
+        <h3>Premium Surface Finishes</h3>
+      </div>
+
+    </div>
+
+    <!-- VIDEO -->
+
+    <div class="video-card">
+
+      <video
+        src="/static/assets/videos/dvm3.mp4"
+        autoplay
+        muted
+        loop
+        playsinline>
+      </video>
+
+      <div class="video-overlay">
+        <h3>Smart Modular Planning</h3>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ===================================================== -->
+<!-- ================= WHY KALAKRIT ====================== -->
+<!-- ===================================================== -->
+
+<section class="why-kalakrit">
+
+  <div class="container">
+
+    <!-- HEADER -->
+
+    <div class="wk-header">
+
+      <span class="wk-tag">
+        WHY KALAKRIT
+      </span>
+
+      <h2>
+        Designed Around
+        <span>Real Homes & Real Families</span>
+      </h2>
+
+      <p>
+        At Kalakrit Interiors, we believe modular kitchens
+        should feel premium, functional and accessible —
+        crafted thoughtfully for modern Indian lifestyles.
+      </p>
+
+    </div>
+
+    <!-- GRID -->
+
+    <div class="wk-grid">
+
+      <!-- CARD -->
+
+      <div class="wk-card">
+
+        <div class="wk-icon">01</div>
+
+        <h3>Affordable Premium Design</h3>
+
+        <p>
+          Elegant modular kitchens designed to balance
+          aesthetics, durability and budget perfectly.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+
+      <div class="wk-card">
+
+        <div class="wk-icon">02</div>
+
+        <h3>Smart Space Planning</h3>
+
+        <p>
+          Every inch is optimized for storage,
+          workflow and comfortable daily usage.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+
+      <div class="wk-card">
+
+        <div class="wk-icon">03</div>
+
+        <h3>Modern Materials</h3>
+
+        <p>
+          Acrylic, laminate, PU and premium finishes
+          selected for long-lasting performance.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+
+      <div class="wk-card">
+
+        <div class="wk-icon">04</div>
+
+        <h3>Personalized Experience</h3>
+
+        <p>
+          From consultation to installation,
+          every kitchen is tailored to your lifestyle.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ===================================================== -->
+<!-- =============== DESIGN INSPIRATIONS ================= -->
+<!-- ===================================================== -->
+
+<section class="design-inspirations">
+
+  <div class="container">
+
+    <!-- HEADER -->
+
+    <div class="arrival-header">
+
+      <span class="arrival-tag">
+        DESIGN INSPIRATIONS
+      </span>
+
+      <h2>
+        Thoughtfully Curated
+        <span>Kitchen Inspirations</span>
+      </h2>
+
+      <p>
+        Explore elegant kitchen ideas crafted for
+        modern lifestyles, smarter storage and timeless interiors.
+      </p>
+
+    </div>
+
+    <!-- GRID -->
+
+    <div class="arrival-grid">
+
+      <!-- CARD 1 -->
+
+      <div class="arrival-card">
+
+        <div class="arrival-image">
+
+          <img src="/static/assets/images/modernimg.jpg" alt="">
+
+          <span class="arrival-badge">
+            SMART STORAGE
+          </span>
+
+        </div>
+
+        <div class="arrival-content">
+
+          <h3>Warm Walnut Concept</h3>
+
+          <p>
+            Modern wood-inspired kitchens designed
+            with cozy textures and practical layouts.
+          </p>
+
+          <div class="arrival-specs">
+
+            <span>Ideal For • Family Homes</span>
+            <span>Finish • Matte Laminate</span>
+            <span>Style • Contemporary</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 2 -->
+
+      <div class="arrival-card">
+
+        <div class="arrival-image">
+
+          <img src="/static/assets/images/m1.jpg" alt="">
+
+          <span class="arrival-badge">
+            MODERN LIVING
+          </span>
+
+        </div>
+
+        <div class="arrival-content">
+
+          <h3>Minimal Matte Kitchen</h3>
+
+          <p>
+            Elegant soft-tone modular kitchens with
+            clutter-free layouts and sleek storage.
+          </p>
+
+          <div class="arrival-specs">
+
+            <span>Ideal For • Urban Apartments</span>
+            <span>Finish • Acrylic Matte</span>
+            <span>Style • Minimal</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 3 -->
+
+      <div class="arrival-card">
+
+        <div class="arrival-image">
+
+          <img src="/static/assets/images/Dark Modern.jpg" alt="">
+
+          <span class="arrival-badge">
+            FAMILY FAVORITE
+          </span>
+
+        </div>
+
+        <div class="arrival-content">
+
+          <h3>Parallel Smart Kitchen</h3>
+
+          <p>
+            Space-efficient kitchen concepts built
+            for smooth movement and better organization.
+          </p>
+
+          <div class="arrival-specs">
+
+            <span>Ideal For • Compact Homes</span>
+            <span>Finish • Textured Laminate</span>
+            <span>Style • Functional Modern</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="contact-section">
+    
+  <div class="contact-container">
+
+    <!-- LEFT SIDE -->
+    <div class="contact-info">
+      <p class="tag">FREE CONSULTATION</p>
+
+      <h2>
+        Tell us about your <span>dream kitchen.</span>
+      </h2>
+
+      <p class="contact-sub">
+        Share a few details and our designer will reach out with a personalised plan,
+        3D layout and quote.
+      </p>
+
+      <ul class="benefits">
+        <li><span>✔</span> Free site visit & measurement</li>
+        <li><span>✔</span> 3D design within 48 hours</li>
+        <li><span>✔</span> 10-year hardware warranty</li>
+      </ul>
+
+      <button class="wa-btn" onclick="openWhatsApp()">
+        💬 Chat on WhatsApp
+      </button>
+    </div>
+
+    <!-- FORM -->
+    <div class="contact-form-card">
+
+      <form id="kalkritForm">
+
+        <!-- FormSubmit config -->
+
+        <div class="form-grid">
+
+          <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" name="Name" id="name" required>
+          </div>
+
+          <div class="input-group">
+            <label>Phone</label>
+            <input type="tel" name="Phone" id="phone" required>
+          </div>
+
+          <div class="input-group full">
+            <label>Email</label>
+            <input type="email" name="Email" id="email" required>
+          </div>
+
+         <div class="input-group">
+  <label>City</label>
+
+<input 
+    type="text"
+    name="City"
+    id="city"
+    placeholder="Enter Your City">
+</div>
+            
+
+          <div class="input-group">
+            <label>Budget</label>
+            <select name="Budget" id="budget">
+              <option value="">Select</option>
+             
+    <option>1 Lakh - 3 Lakh</option>
+
+    <option>3 Lakh - 5 Lakh</option>
+
+    <option>5 Lakh - 7 Lakh</option>
+
+    <option>7 Lakh - 10 Lakh</option>
+
+    <option>10 Lakh - 15 Lakh</option>
+
+    <option>15 Lakh - 20 Lakh</option>
+
+    <option>20 Lakh+</option>
+            </select>
+          </div>
+
+          <div class="input-group full">
+            <label>Kitchen Type</label>
+            <select name="Kitchen Type" id="type">
+              <option value="">Select</option>
+              <option>L Shape</option>
+              <option>U Shape</option>
+              <option>Parallel</option>
+              <option>Island</option>
+            </select>
+          </div>
+
+          <div class="input-group full">
+            <label>Message</label>
+            <textarea name="Message" id="message"></textarea>
+          </div>
+
+        </div>
+
+        <button type="submit" class="submit-btn" onclick="showAlert()">
+          Submit Request
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================================
+     CUSTOM SUCCESS ALERT
+========================================================= -->
+
+<div class="custom-alert">
+
+  <div class="alert-box">
+
+    <span class="alert-icon">✓</span>
+
+    <p class="alert-message">
+      Thank you!
+    </p>
+
+    <button onclick="closeAlert()">
+      OK
+    </button>
+
+  </div>
+
+</div>
+
+
+<!-- ═══════════════════════ DETAILS AND MAP SECTION ═══════════════════════ -->
+<section  id="details" class="contact-section">
+  <div class="contact-eyebrow"><span></span> Visit · Call · Chat</div>
+  <h2 class="contact-heading">Let's design your<br>kitchen, <em>together.</em></h2>
+
+  <div class="contact-grid">
+
+    <!-- Left column -->
+    <div class="contact-left">
+      <!-- Call card -->
+      <div class="c-card">
+        <div class="c-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.09 4.18 2 2 0 015.07 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+          </svg>
+        </div>
+        <div class="c-label">Call Us</div>
+        <div class="c-value">
+          <a href="tel:+917888283629">+91 78882 83629</a><br>
+          <a href="tel:+918329726008">+91 83297 26008</a>
+        </div>
+        <a href="tel:+917888283629" class="c-cta">Call Now →</a>
+      </div>
+
+      <!-- Email card -->
+      <div class="c-card">
+        <div class="c-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M2 7l10 7 10-7"/>
+          </svg>
+        </div>
+        <div class="c-label">Email</div>
+        <div class="c-value">
+          <a href="mailto:ashwiniumale08@gmail.com">ashwiniumale08@gmail.com</a>
+        </div>
+        <a href="mailto:ashwiniumale08@gmail.com" class="c-cta">Send Email →</a>
+      </div>
+    </div>
+
+    <!-- Middle column -->
+    <div class="contact-middle">
+      <!-- WhatsApp card -->
+      <div class="c-card sage">
+        <div class="c-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+          </svg>
+        </div>
+        <div class="c-label">WhatsApp</div>
+        <div class="c-value">+91 78882 83629</div>
+        <a href="https://wa.me/917888283629" target="_blank" class="c-cta">Chat on WhatsApp →</a>
+      </div>
+
+      <!-- Showroom card -->
+      <div class="c-card">
+        <div class="c-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+        </div>
+        <div class="c-label">Showroom</div>
+        <div class="c-value"> 1st Floor, Dr. Vijay Karmarkar, Navjeevan Hospital<br> Beside Rasraj Restaurant,<br> Mul Road, Chandrapur<br>Maharashtra</div>
+        <a href="https://maps.google.com/?q=Rasraj+Restaurant+Mul+Road+Chandrapur+Maharashtra" target="_blank" class="c-cta">Open in Maps →</a>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <div class="map-card">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30019.47!2d79.2961!3d19.9615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd1a4e4c5f00001%3A0x0!2sMul+Road%2C+Chandrapur%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1680000000000"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Kalakrit Interior Showroom Location">
+      </iframe>
+      <a class="map-overlay-btn"
+         href="https://maps.google.com/?q=Rasraj+Restaurant+Mul+Road+Chandrapur+Maharashtra"
+         target="_blank">
+        <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        Open in Maps
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+<footer class="footer">
+  <div class="footer-inner">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <div class="footer-logo-icon">K</div>
+        <div class="footer-logo-text">
+          <div class="footer-logo-name">Kalakrit Interior</div>
+          <div class="footer-logo-sub">Designing Spaces. Defining You.</div>
+        </div>
+      </div>
+      <p class="footer-desc">
+        Premium modular kitchens & interiors crafted in Chandrapur. Designed for the way you live — built to last for years.
+      </p>
+      <div class="footer-socials">
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/kalakrit_interiors?utm_source=qr&igsh=MXdzY3lkdmd4Zmg2cA==" class="footer-social-btn" aria-label="Instagram">
+          <svg viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div>
+      <div class="footer-nav-heading">Explore</div>
+      <ul class="footer-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#designs">Designs</a></li>
+        <li><a href="#materials">Materials</a></li>
+        <li><a href="#customizer">Customizer</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <div class="footer-contact-heading">Get In Touch</div>
+      <div class="footer-contact-list">
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24">
+            <path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.09 4.18 2 2 0 015.07 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+          </svg>
+          <p>
+            <a href="tel:+917888283629">+91 78882 83629</a><br>
+            <a href="tel:+918329726008">+91 83297 26008</a>
+          </p>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M2 7l10 7 10-7"/>
+          </svg>
+          <p><a href="mailto:design@kalakritinteriors.in">ashwiniumale08@gmail.com</a></p>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24">
+            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          <p>Beside Rasraj Restaurant, Mul Road,<br>Chandrapur, Maharashtra</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="footer-bottom">
+    <p>© 2026 Kalakrit Interior. All rights reserved.</p>
+    <p class="footer-bottom-tagline">Designing Spaces. Defining You.</p>
+  </div>
+  <div class="footer-gold-line"></div>
+</footer>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
